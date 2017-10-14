@@ -8,8 +8,6 @@ RUN set -x \
 	&& apt-get clean -y
 
 
-# RUN /bin/mkdir -p /root/.android/ \
-# 	&& chmod 750 /root/.android/
 COPY content/script.py /root/
 COPY content/script.sh /root/
 
